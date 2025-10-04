@@ -27,6 +27,6 @@ pipeline {
             steps {
                 sh 'python3 greet.py'
             }
-        }
-    }
+        }
+    }
 }
