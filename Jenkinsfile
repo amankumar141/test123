@@ -25,8 +25,9 @@ pipeline {
 
         stage('Run Script') {
             steps {
-                sh 'python3 greet.py'
+                bat 'python greet.py'
             }
         }
+
     }
 }
